@@ -2,31 +2,34 @@
 // 23070123048
 
 #include <iostream>
+#include<string>
 using namespace std;
-
 int main() {
-    int a,b,x,y,z,w,r;
-    cout << "enter the number:";
-    cin >> a >> b;
-    x = a|b;
-    cout << "\nans is :" << x;
-    y = a^b;
-    cout << "\nans is :" << y;
-    z = a&b;
-    cout << "\nans is :" << z;
-    w = a << 1;
-    cout << "\nans is :" << w;
-    r = a >> 1;
-    cout << "\nans is :" << r;
+    int a,b,w,x,y,z,r;
+    cout<< "enter the first no :";
+    cin >> a;
+    cout << "\n enter the second no.:";
+    cin >> b;
+    w = a+b;
+    cout << "\naddition is :" << w;
+    x = a-b;
+    cout << "\nsubtraction is :" << x;
+    y = a*b;
+    cout << "\nmultiplication is :" << y;
+    z = a/b;
+    cout << "\ndivision is :" << z;
+    r = a%b;
+    cout << "\nmodule is :" << r;
 
     return 0;
 }
-/* output :-
-enter the number:54
-61
+/* OUTPUT :-
+enter the first no :55
 
-ans is :63
-ans is :11
-ans is :52
-ans is :108
-ans is :27*/
+enter the second no.:5
+
+addition is :60
+subtraction is :50
+multiplication is :275
+division is :11
+module is :0*/
